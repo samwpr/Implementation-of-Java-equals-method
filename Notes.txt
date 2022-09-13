@@ -1,0 +1,7 @@
+Equals Method: 
+https://www.sitepoint.com/implement-javas-equals-method-correctly/
+https://www.baeldung.com/java-equals-hashcode-contracts
+https://www.digitalocean.com/community/tutorials/java-equals-hashcode
+https://rules.sonarsource.com/java/RSPEC-2097
+https://www.infoworld.com/article/3305792/comparing-java-objects-with-equals-and-hashcode.html
+https://nus-cs2030.github.io/1718-s2/lec03/index.html

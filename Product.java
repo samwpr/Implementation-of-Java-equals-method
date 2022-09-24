@@ -1,6 +1,6 @@
 // Best explanation: https://www.baeldung.com/java-equals-hashcode-contracts
 
-import nl.jqno.equalsverifier.EqualsVerifier;
+//import nl.jqno.equalsverifier.EqualsVerifier;
 
 
 class Product {

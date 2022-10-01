@@ -11,22 +11,50 @@ class A implements Runnable{
         try{
             Thread.sleep(1000);
         } catch (InterruptedException e1){}
+        
         currentlyRunningCounter.incrementAndGet();
+
+        System.out.println("finish");
+
     }
 
     public static void main(String[] argv) throws Exception {
  
         Thread t1 = new Thread(new A());
         Thread t2 = new Thread(new A());
+
+
+
+        System.out.println("1");
+        System.out.println("t1 " + t1.isAlive());
+        System.out.println("t2 " + t2.isAlive());
+        System.out.println("main " + Thread.currentThread().isAlive() + "\n");
+        
         t1.start(); 
-        System.out.println("t1 " + t1.isAlive());
         t2.start();
-        System.out.println("t2 " + t2.isAlive());
-        System.out.println(currentlyRunningCounter);
-        t1.join(); 
+
+        System.out.println("2");
         System.out.println("t1 " + t1.isAlive());
-        t2.join();
         System.out.println("t2 " + t2.isAlive());
+        System.out.println("main " + Thread.currentThread().isAlive() + "\n");
+
+        System.out.println(currentlyRunningCounter);
+
+        System.out.println("3");
+        System.out.println("t1 " + t1.isAlive());
+        System.out.println("t2 " + t2.isAlive());
+        System.out.println("main " + Thread.currentThread().isAlive() + "\n");
+
+
+        t1.join(); 
+        t2.join();
+
+        System.out.println("4");
+        System.out.println("t1 " + t1.isAlive());
+        System.out.println("t2 " + t2.isAlive());
+        System.out.println("main " + Thread.currentThread().isAlive() + "\n");
+
+
        
     }
 }

@@ -40,6 +40,7 @@ class A implements Runnable{
 
         System.out.println(currentlyRunningCounter);
 
+        System.out.println("");
         System.out.println("3");
         System.out.println("t1 " + t1.isAlive());
         System.out.println("t2 " + t2.isAlive());

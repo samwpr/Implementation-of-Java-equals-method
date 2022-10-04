@@ -28,7 +28,6 @@ class B implements Runnable{
 
         //t1.join(); 
         //t2.join();
-
        
     }
 }

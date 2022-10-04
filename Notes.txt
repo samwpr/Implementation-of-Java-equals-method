@@ -1,4 +1,10 @@
-Equals Method: 
+
+2020 Test Paper: 
+https://www.studocu.com/en-gb/document/university-of-essex/advanced-programming/exam-may-2020-questions/11883244
+
+
+
+Equals Method Resources : 
 https://www.sitepoint.com/implement-javas-equals-method-correctly/
 https://www.baeldung.com/java-equals-hashcode-contracts
 https://www.digitalocean.com/community/tutorials/java-equals-hashcode
@@ -6,3 +12,4 @@ https://rules.sonarsource.com/java/RSPEC-2097
 https://www.infoworld.com/article/3305792/comparing-java-objects-with-equals-and-hashcode.html
 https://nus-cs2030.github.io/1718-s2/lec03/index.html
 https://stackoverflow.com/questions/21408569/wrong-implementation-pattern-for-java-equals-method
+
